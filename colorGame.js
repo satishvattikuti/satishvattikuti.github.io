@@ -11,6 +11,7 @@ var easy = document.getElementById('easy');
 easy.addEventListener('click', function() {
   easy.classList.add('selected');
   hard.classList.remove('selected'); 
+  h1.style.backgroundColor ="steelBlue";
   numSquares = 3
   colors = generateRandomColors(numSquares);
   pickedColor = pickColor();
